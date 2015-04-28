@@ -43,6 +43,7 @@
     <source-file src="src/ios/SocialSharing.m"/>
 
     <framework src="Social.framework" weak="true" />
+    <framework src="Accounts.framework" weak="true" />
     <framework src="MessageUI.framework" weak="true" />
   </platform>
 
@@ -72,7 +73,7 @@
 
     <source-file src="src/wp8/SocialSharing.cs" />
   </platform>
-  
+
   <!-- windows -->
   <platform name="windows">
     <js-module src="src/windows/SocialSharingProxy.js" name="SocialSharingProxy">
